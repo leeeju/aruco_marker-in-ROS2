@@ -2,10 +2,10 @@
 
 OpenCV기반의 Aruco 마커 트레킹 ROS2 버전
 
-이 패키지는 최신 버전의 OpenCV python 바인딩에 따라 다릅니다.
+이 패키지는 최신 버전의 OpenCV python 을 사용합니다.
 
 ```
-pip install opencv-contrib-python # or pip3   <- 설치 하세요 Open_CV
+pip install opencv-contrib-python   # or pip3   <- 설치 하세요 Open_CV
 ```
 
 ## ROS2 API for the ros2_aruco Node
