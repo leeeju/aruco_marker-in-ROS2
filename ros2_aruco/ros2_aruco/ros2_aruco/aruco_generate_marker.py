@@ -1,10 +1,3 @@
-"""
-Script for generating Aruco marker images.
-
-Author: Nathan Sprague
-Version: 10/26/2020
-"""
-
 import argparse
 import cv2
 import numpy as np
