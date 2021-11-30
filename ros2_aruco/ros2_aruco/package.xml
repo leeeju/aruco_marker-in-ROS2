@@ -4,7 +4,7 @@
   <name>ros2_aruco</name>
   <version>0.1.0</version>
   <description>ROS2 Aruco Marker Tracking</description>
-  <maintainer email="nathan.r.sprague@gmail.com">Nathan Sprague</maintainer>
+  <maintainer email="02stu4@gmail.com">Nathan Sprague</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
