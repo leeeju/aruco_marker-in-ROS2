@@ -36,6 +36,8 @@ ros2 run ros2_aruco aruco_generate_marker --id 1 --size 200 --dictionary DICT_4X
 ```
 --> 마커의 ID는 1번, 크기는 200, 찾을 마커정보 DICT_4X4_100
 
+--> 뒤에 따로 인자값을 입력하지 않으면 전부 초기값인  --id 1 --size 200 --dictionary DICT_5X5_250 의 마커가 생성됩니다.
+
 Pass the `-h` flag for usage information: 
 
 ```
