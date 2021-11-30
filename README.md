@@ -19,10 +19,10 @@ Subscriptions:
 Published Topics:
 * `/aruco_poses` (`geometry_msgs.msg.PoseArray`) - 감지된 모든 마커의 포즈 (rviz 사용가능)
 * `/aruco_markers` (`ros2_aruco_interfaces.msg.ArucoMarkers`) 
-  - 해당 마커 ID와 함께 모든 poses의 배열을 제공합니다.
+ - 해당 마커 ID와 함께 모든 poses의 배열을 제공합니다.
 
 Parameters:
-* `marker_size` - 미터 단위의 마커 크기 < <EX = (default .0625) > 6.25cm   >
+* `marker_size` - 미터 단위의 마커 크기  ( [EX = (default .0625)] 6.25cm )
 * `aruco_dictionary_id` - 마커를 생성하는 데 사용된  DICT 값 (default `DICT_5X5_250`)
 * `image_topic` - 표시되는 이미지  (default `/camera/image_raw`)
 * `camera_info_topic` - Camera info topic (default `/camera/camera_info`)
