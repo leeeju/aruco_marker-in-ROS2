@@ -29,9 +29,10 @@ Parameters:
 * `camera_frame` - 사용할 카메라 광학 프레임 (카메라 정보 메시지에서 제공한 프레임 ID로 기본 설정),(작성자는 USB 카메라 사용함)
 
 ## Generating Marker Images
+- 마커 생성 예시
 
 ```
-마커 생성 예시 ros2 run ros2_aruco aruco_generate_marker --id 1 --size 200 --dictionary DICT_4X4_100
+ros2 run ros2_aruco aruco_generate_marker --id 1 --size 200 --dictionary DICT_4X4_100
 ```
 --> 마커의 ID는 1번, 크기는 200, 찾을 마커정보 DICT_4X4_100
 
@@ -53,3 +54,9 @@ optional arguments:
                  DICT_7X7_1000, DICT_7X7_250, DICT_7X7_50, DICT_ARUCO_ORIGINAL
                  (default: DICT_5X5_250)
 ```
+
+- 마커 탐색 예시
+```
+ros2 run ros2_aruco aruco_node
+```
+
