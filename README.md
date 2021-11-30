@@ -58,6 +58,11 @@ optional arguments:
 ```
 
 - 마커 탐색 예시
+
+```
+ros2 topic echo /aruco_markers
+```
+
 ```
 ros2 run ros2_aruco aruco_node
 ```
